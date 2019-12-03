@@ -33,7 +33,17 @@ while (++$i <= $MAX) {
   # print this step
   prstep();
 }
-exit;
+
+#########
+
+sub p_next {
+  # this is the next 'x' after old p[i], for steps > 2
+  #
+  until($pattern[$i-1][$n-1] eq 'x') {
+    $n++;
+  } 
+  return $n;
+} 
 
 sub prstep {
   # print pattern and other per-step variables 
@@ -56,14 +66,6 @@ sub pr_block {
   return;
 }
 
-sub p_next {
-  # this is the next 'x' after old p[i], for steps > 2
-  #
-  until($pattern[$i-1][$n-1] eq 'x') {
-    $n++;
-  } 
-  return $n;
-} 
 
 sub init {
   # "$i" is index/step
