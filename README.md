@@ -1,6 +1,7 @@
 # sieve-prime
 perl program to do it like Eratosthenes
 
+test Oct
 
 The first three steps look like this:
 
