@@ -1,5 +1,5 @@
 # Eratosthenes' Sieve 
-# 
+# a visual, minimally numerical method  
 $MAX = 4;
 
 init();
