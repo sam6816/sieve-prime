@@ -1,6 +1,8 @@
 # Eratosthenes' Sieve 
 # a visual, minimally numerical method  
 # third line in github
+# fourth line local
+
 $MAX = 4;
 
 init();
