@@ -1,8 +1,6 @@
 # sieve-prime
 perl program to do it like Eratosthenes
 
-test Oct
-
 The first three steps look like this:
 
 
@@ -17,5 +15,3 @@ The first three steps look like this:
 
     sieved:2 (Step=3), p=5, len=30
     x.....x...x.x...x.x...x.....x.
-
-new last line
