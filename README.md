@@ -1,7 +1,8 @@
 # sieve-prime
 perl program to do it like Eratosthenes
 
-The first three steps look like this:
+The first three steps (after the initial one)
+look like this:
 
 
     sieved: (Step=0), p=1, len=1
